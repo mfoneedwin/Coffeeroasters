@@ -1,0 +1,229 @@
+<%- include ('partials/header') %> 
+<!-- Plan A -->
+<section id="plan-a" style="background-image: url(/images/image-hero-whitecup.jpg);">
+  <div id="plan-a-content">
+    <h1 class="big-title">
+      Create a plan
+    </h1>
+    <p class="paragraph">
+      Build a subscription plan that best fits your needs. We offer an assortment of the best 
+      artisan coffees from around the globe delivered fresh to your door.
+    </p>
+  </div>
+</section>
+
+<!-- Plan B -->
+<section id="plan-b">
+  <div id="plan-circle-line">
+    <div class="circle plan-circ"></div>
+    <div class="circle circ-2 plan-circ"></div>
+    <div class="circle circ-3 plan-circ"></div>
+  </div>
+  <div id="plan-steps">
+    <div class="step">
+      <h1 class="big-title">01</h1>
+      <h3 class="small-title">Pick your coffee</h3>
+      <p class="paragraph">
+        Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
+      </p>
+    </div>
+    <div class="step">
+      <h1 class="big-title">02</h1>
+      <h3 class="small-title">Choose the frequency</h3>
+      <p class="paragraph">
+        Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.
+      </p>
+    </div>
+    <div class="step">
+      <h1 class="big-title">03</h1>
+      <h3 class="small-title">Receive and enjoy!</h3>
+      <p class="paragraph">
+        We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Plan C -->
+<section id="plan-c">
+  <div id="plan-c-side-bar">
+    <ul>
+      <li id="li-prefs" class="open">
+        <span class='li-num'>01</span>
+        <span class="li-title">Preferences</span>
+      </li>
+      <li id="li-type">
+        <span class='li-num'>02</span>
+        <span class="li-title">Bean type</span>
+      </li>
+      <li id='li-quant'>
+        <span class='li-num'>03</span>
+        <span class="li-title">Quantity</span> 
+      </li>
+      <li id='li-grind'>
+        <span class="li-num">04</span>
+        <span class="li-title">Grind option</span>
+      </li>
+      <li id='li-freq'>
+        <span class="li-num">05</span>
+        <span class="li-title">Deliveries</span>
+      </li>
+    </ul>
+  </div>
+  <div id="plan-c-main">
+    <div id="plan-c-dropdowns">
+      <div class="dropdown-option">
+        <button class="dropdown-title" value="prefs">
+          <h1 class="med-title">How do you drink your coffee?</h1>
+          <img id="arrow-prefs" class="spin" src="/images/icon-arrow.svg" alt="arrow">
+        </button>
+        <div id="options-prefs" class="plan-c-options">
+          <button class="option-card" value="capsule">
+            <h3 class="small-title">Capsule</h3>
+            <p class="paragraph">Compatible with Nespresso systems and similar brewers</p>
+          </button>
+          <button class="option-card" value="filter">
+            <h3 class="small-title">Filter</h3>
+            <p class="paragraph">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+          </button>
+          <button class="option-card" value="espresso">
+            <h3 class="small-title">Espresso</h3>
+            <p class="paragraph">Dense and finely ground beans for an intense, flavorful experience</p>
+          </button>
+        </div>
+      </div>
+      <div class="dropdown-option">
+        <button class="dropdown-title" value="type">
+          <h1 class="med-title">What type of coffee?</h1>
+          <img id="arrow-type" src="/images/icon-arrow.svg" alt="arrow">
+        </button>
+        <div id="options-type" class="plan-c-options hide">
+          <button class="option-card" value='single'>
+            <h3 class="small-title">Single origin</h3>
+            <p class="paragraph">Distinct, high quality coffee from a specific family-owned farm</p>
+          </button>
+          <button class="option-card" value='decaf'>
+            <h3 class="small-title">Decaf</h3>
+            <p class="paragraph">Just like regular coffee, except the caffeine has been removed</p>
+          </button>
+          <button class="option-card" value='blended'>
+            <h3 class="small-title">Blended</h3>
+            <p class="paragraph">Combination of two or three dark roasted beans of organic coffees</p>
+          </button>
+        </div>
+      </div>
+      <div class="dropdown-option">
+        <button class="dropdown-title" value="quant">
+          <h1 class="med-title">How much would you like?</h1>
+          <img id="arrow-quant" src="/images/icon-arrow.svg" alt="arrow">
+        </button>
+        <div id="options-quant" class="plan-c-options hide">
+          <button class="option-card" value='250'>
+            <h3 class="small-title">250g</h3>
+            <p class="paragraph">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+          </button>
+          <button class="option-card" value='500'>
+            <h3 class="small-title">500g</h3>
+            <p class="paragraph">Perfect option for a couple. Yields about 40 delectable cups.</p>
+          </button>
+          <button class="option-card" value='1000'>
+            <h3 class="small-title">1000g</h3>
+            <p class="paragraph">Perfect for offices and events. Yields about 90 delightful cups.</p>
+          </button>
+        </div>
+      </div>
+      <div class="dropdown-option">
+        <button 
+        id="grindEmBtn"
+        class="dropdown-title" value="grind">
+          <h1 class="med-title">Want us to grind them?</h1>
+          <img id="arrow-grind" src="/images/icon-arrow.svg" alt="arrow">
+        </button>
+        <div id="options-grind" class="plan-c-options hide">
+          <button class="option-card" value='wholebean'>
+            <h3 class="small-title">Wholebean</h3>
+            <p class="paragraph">Best choice if you cherish the full sensory experience</p>
+          </button>
+          <button class="option-card" value='filtered'>
+            <h3 class="small-title">Filter</h3>
+            <p class="paragraph">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+          </button>
+          <button class="option-card" value='cafetiere'>
+            <h3 class="small-title">Cafetiére</h3>
+            <p class="paragraph">Course ground beans specially suited for French press coffee</p>
+          </button>
+        </div>
+      </div>
+      <div class="dropdown-option">
+        <button class="dropdown-title" value="freq">
+          <h1 class="med-title">How often should we deliver?</h1>
+          <img id="arrow-freq" src="/images/icon-arrow.svg" alt="arrow">
+        </button>
+        <div id="options-freq" class="plan-c-options hide">
+          <button class="option-card" value='weekly'>
+            <h3 class="small-title">Every week</h3>
+            <p class="paragraph">$14.00 per shipment. Includes free first-class shipping.</p>
+          </button>
+          <button class="option-card" value='biweekly'>
+            <h3 class="small-title">Every 2 weeks</h3>
+            <p class="paragraph">$17.25 per shipment. Includes free priority shipping.</p>
+          </button>
+          <button class="option-card" value='monthly'>
+            <h3 class="small-title">Every month</h3>
+            <p class="paragraph">$22.50 per shipment. Includes free priority shipping.</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="plan-c-summary">
+      <p class="paragraph"> ORDER SUMMARY</p>
+      <h3 id="activate-plan" class="small-title">“I drink coffee 
+        <span id='using' style="color: #ffffff"></span>
+        <span id="pref">_____</span>, with a 
+        <span id="type">_____</span> type of bean. 
+        <span id="quant">_____</span> 
+        <span id="groundAla" style="color: #ffffff">ground ala </span>
+        <span id="grind">_____</span>, sent to me 
+        <span id="freq">_____</span>.”</h3>
+    </div>
+    <button id="create-plan-btn" class="mn-btn disabled" disabled="true">
+      Create my plan!
+    </button>
+  </div>
+
+  <!-- Modal -->
+  <div id="my-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="med-title">Order Summary</h1>
+      </div>
+      <h3 class="modal-quote">“I drink coffee 
+        <span id='modal-using'></span>
+        <span id="modal-pref" class='cyan'>_____</span>, with a 
+        <span id="modal-type" class='cyan'>_____</span> type of bean. 
+        <span id="modal-quant" class='cyan'>_____</span> 
+        <span id="modal-groundAla">ground ala </span>
+        <span id="modal-grind" class='cyan'>_____</span>, sent to me 
+        <span id="modal-freq" class='cyan'>_____</span>.”
+      </h3>
+      <p class="modal-paragraph">
+        Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout.
+      </p>
+      <div class="modal-footer">
+        <h1 id="modal-cost" class="modal-price">$_____/mo</h1>
+        <button id='checkout-btn' class="mn-btn">
+          Checkout
+        </button>
+      </div>
+      <div class="mobile-modal-footer">
+        <button id="mobile-checkout-btn" class="mobile-btn">
+          <h2 id="mobile-modal-cost" class ="mobile-modal-price"></h2> 
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- End modal -->
+</section>
+
+
+<%- include ('partials/footer') %> 
