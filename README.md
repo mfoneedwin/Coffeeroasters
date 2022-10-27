@@ -1,5 +1,5 @@
 # Coffeeroasters
-Coffee-roaster is a project i did to more advanced understanding on JavaScript manipulation with DOM.
+Coffee-roaster is a project i did to know more advanced understanding on JavaScript manipulation with DOM.
 Used Node.js and EJS
 
 It  was a challenge to create a  landing page UI design . The project had all the UI instructions for a better Design.
